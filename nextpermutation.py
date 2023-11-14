@@ -15,8 +15,8 @@ class Solution():
         nums[i],nums[ind]=nums[ind],nums[i]
         nums[ind+1:]=reversed(nums[ind+1:])
         return nums
+    
 #Test Case
 sol=Solution()
 num=[1,2,3]
 print(sol.nextPermutation(num))
-            
