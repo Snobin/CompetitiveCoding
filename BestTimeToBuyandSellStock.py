@@ -1,3 +1,4 @@
+import sys
 class Solution():
     def maxProfit(self,arr):
         n=len(arr)
@@ -10,5 +11,5 @@ class Solution():
     
 #Test Case
 ans=Solution()
-arr=[7,1,5,3,6,4]
+arr=[1,5,3,6,4]
 print(ans.maxProfit(arr))
