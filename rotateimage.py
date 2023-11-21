@@ -15,3 +15,5 @@ class Solution():
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 ans=Solution()
 print(ans.rotate(matrix))
+# print(len(matrix[0]))
+# print(matrix[0])

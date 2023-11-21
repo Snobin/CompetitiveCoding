@@ -21,3 +21,6 @@ ans=[1,2,3,4]
 bcd=[5,6]
 ans[:2]=bcd[:1]
 print(ans)
+
+twod=[[1,2],[2,3],[8,9]]
+print("ans",twod[-1][1])
