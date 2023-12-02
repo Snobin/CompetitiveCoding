@@ -6,6 +6,7 @@ class Solution():
             for j in range(i+1,length):
                 if arr[min_index]>arr[j]:
                     min_index=j
+            #swap the ith element and minimal element
             arr[i],arr[min_index]=arr[min_index],arr[i]
         return arr
 
